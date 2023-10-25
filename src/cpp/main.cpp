@@ -1,6 +1,6 @@
 /*
  * Author: Durdana Yembergenova
- * Date:
+ * Date: 20.10.2023
  */
 
 #include <iostream>
