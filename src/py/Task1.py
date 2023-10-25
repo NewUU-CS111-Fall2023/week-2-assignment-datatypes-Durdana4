@@ -1,9 +1,13 @@
 class leapYear():
     def leap_year(self,N):
-        if N%4 != 0 :
-            print(N, " is not a leap year \n")
+        if n%100==0 and n%400!=0:
+            print(n, " is not leap year")
+        elif n%400==0:
+            print(n, " is leap year")
+        elif n%4==0:
+            print(n, " is leap year")
         else:
-            print(N, " is a leap year \n")
+            print(n, " is not leap year")
 
 if __name__=="__main__":
     obj=leapYear()
