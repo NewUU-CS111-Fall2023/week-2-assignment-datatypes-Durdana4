@@ -1,5 +1,5 @@
 class leapYear():
-    def leap_year(self,N):
+    def leap_year(self,n):
         if n%100==0 and n%400!=0:
             print(n, " is not leap year")
         elif n%400==0:
